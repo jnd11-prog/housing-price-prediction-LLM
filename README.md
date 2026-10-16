@@ -1,4 +1,5 @@
 Housing Price Prediction 
+
 A Python data science project exploring how property features can help estimate home sale prices in Ames, Iowa.
 Project Goal
 Can housing data help identify properties worth investigating as potentially underpriced?
@@ -24,9 +25,12 @@ Approach
 3. Split labeled data into training and validation sets.
 4. Evaluate predictions using mean absolute error (MAE).
 5. Interpret model limitations and identify opportunities for improvement.
+   
 Evaluation
+
 MAE measures the average absolute difference between predicted and actual sale prices, expressed in dollars. Lower values indicate smaller average errors.
 Performance on held-out validation data matters more than performance on homes the model has already seen. Kaggle’s separate test.csv does not include sale prices, so local validation uses a split of the labeled training data.
+
 Results will be documented alongside the completed notebook.
 Business Perspective
 A predicted price above a listing price could flag a property for further research, but it does not establish that the property is a good investment. Renovation costs, transaction costs, property condition, and current market conditions would also need to be considered.
