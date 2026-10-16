@@ -3,9 +3,12 @@ Housing Price Prediction
 A Python data science project exploring how property features can help estimate home sale prices in Ames, Iowa.
 Project Goal
 Can housing data help identify properties worth investigating as potentially underpriced?
-This project explores that question through data analysis, decision tree modeling, and validation. It also considers what a model would need before supporting real investment decisions.
+
+This project explores that question through data analysis, decision tree modeling, and validation.
+
 Dataset
 The project uses Kaggle’s House Prices dataset, containing 1,460 training examples and 79 explanatory variables. The prediction target is SalePrice.
+
 The initial model focuses on five features:
 Feature	Description
 GrLivArea	Above-ground living area
@@ -34,7 +37,9 @@ Performance on held-out validation data matters more than performance on homes t
 Results will be documented alongside the completed notebook.
 Business Perspective
 A predicted price above a listing price could flag a property for further research, but it does not establish that the property is a good investment. Renovation costs, transaction costs, property condition, and current market conditions would also need to be considered.
-Next Steps
+
+Actionable Next Steps
+
 * Compare the decision tree with a random forest.
 * Explore additional features, including neighborhood and overall quality.
 * Investigate where prediction errors are largest.
